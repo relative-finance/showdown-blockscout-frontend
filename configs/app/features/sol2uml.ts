@@ -13,7 +13,7 @@ const config: Feature<{ api: { endpoint: string; basePath: string } }> = (() => 
       isEnabled: true,
       api: {
         endpoint: apiEndpoint,
-        basePath: '',
+        basePath: '/visualiser',
       },
     });
   }
